@@ -1,0 +1,27 @@
+{
+  "name": "node-rpsls",
+  "version": "1.0.0",
+  "description": "node rpsls",
+  "main": "./lib/rpsls.js",
+  "scripts": {
+    "test": "tester"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2023-spring/a03-Mjswin.git"
+  },
+  "author": "Mitchell Swindell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/comp426-2023-spring/a03-Mjswin/issues"
+  },
+  "homepage": "https://github.com/comp426-2023-spring/a03-Mjswin#readme",
+  "bin": {
+    "node-rps": "./bin/rps-cli.js",
+    "node-rpsls": "./bin/rpsls-cli.js"
+  },
+  "dependencies": {
+    "minimist": "^1.2.8"
+  },
+  "type": "module"
+}
